@@ -11,7 +11,7 @@ div.main {
 }
 
 div.main a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .fullpage {
@@ -102,6 +102,35 @@ div.main .login {
   border-color: #fff;
 }
 
+.frontContent {
+  height: 660px;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+  display: block;
+    box-sizing: border-box;
+}
+.frontContent .intro-content {
+    position: relative;
+    padding: 40px;
+    text-align: center;
+    line-height: 160%;
+    font-size: 16px;
+    max-width: 500px;
+    top: 50%;
+    transform: translateY(-50%);
+    float: right;
+    margin-right: 55%;
+}
+.frontContent .screenshot {
+    /* background: url(../img/lasers.png) no-repeat; */
+    background-size: 1000px auto;
+    left: 50%;
+    position: absolute;
+    height: 500px;
+    right: 0;
+    top: 70px;
+}
 .button {
   padding: 12px;
   display: inline-block;
@@ -118,7 +147,6 @@ div.main .login {
   border: 2px solid transparent;
   background-color: #9ed56b;
 }
-
 
 @keyframes App-logo-spin {
   from {

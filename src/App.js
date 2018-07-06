@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import menu from "./menu";
 import "./App.css";
+import Pricing from "./pages/Pricing";
 
 class App extends Component {
   render() {
@@ -20,7 +21,7 @@ class App extends Component {
             data-l10n-id="index-nav-pricing"
             className="nav-item"
           >
-            Pricing
+
           </a>
           <a
             href="#features"
@@ -77,7 +78,9 @@ class App extends Component {
             </p>
           </div>
         </div>
+<Pricing />
       </div>
+
     );
   }
 }
