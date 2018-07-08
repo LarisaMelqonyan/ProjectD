@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import menu from "./menu";
 import "./App.css";
-import Pricing from "./pages/Pricing";
+import Pricing from "./pages/pricing/Pricing";
 
 class App extends Component {
   render() {
     return (
+      <div>
       <div className="App main fullpage">
         {/*  menu */}
 
@@ -16,13 +17,7 @@ class App extends Component {
           <a href="/login" data-l10n-id="index-nav-login" className="nav-item">
             Login
           </a>
-          <a
-            href="#pricing"
-            data-l10n-id="index-nav-pricing"
-            className="nav-item"
-          >
-
-          </a>
+        <a href="/Pricing" data-l10n-id="index-nav-pricing" class="nav-item">Pricing</a>
           <a
             href="#features"
             data-l10n-id="index-nav-features"
@@ -78,8 +73,11 @@ class App extends Component {
             </p>
           </div>
         </div>
-<Pricing />
+        </div>
+
+<div><Pricing /></div>
       </div>
+
 
     );
   }

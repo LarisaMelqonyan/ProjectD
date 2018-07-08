@@ -1,0 +1,136 @@
+.mainDiv {
+  background-color: #fafafa;
+  width: 1349px;
+  height: auto;
+  margin-top: -20px;
+}
+.title {
+  text-align: center;
+  color: grey;
+  padding-top: 25px;
+  margin: 20px;
+}
+.filds {
+  display: flex;
+  text-align: center;
+  margin-left: 150px;
+}
+.free {
+  background-color: #7eddcd;
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 32px;
+  padding: 5px;
+}
+.awesome {
+  background-color: #6b99e2;
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 30px;
+  padding: 5px;
+}
+.organization {
+  background-color: #8b7fdf;
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 30px;
+  padding: 5px;
+}
+.h2 {
+  color: #fafafa;
+}
+.divText {
+  color: #fafafa;
+  font-size: 18px;
+}
+.element1 {
+  color: #fafafa;
+  display: inline-block;
+  font-size: 30px;
+}
+.element2 {
+  color: #fafafa;
+  display: inline-block;
+  font-size: 80px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.freeElement2 {
+  color: #fafafa;
+  display: inline-block;
+  font-size: 80px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.element3 {
+  color: #fafafa;
+  display: block;
+}
+.button {
+  font-size: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 3px solid transparent;
+  background: #fafafa;
+  display: block;
+  color: #8b7fdf;
+  margin: 20px;
+  margin-top: 60px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.feature1 {
+  width: 200px;
+  height: 200px;
+  margin-left: 215px;
+  margin-top: 25px;
+  text-align: center;
+  color: #333333;
+  line-height: 1.7em;
+}
+.feature2 {
+  width: 200px;
+  height: 200px;
+  margin-left: 540px;
+  margin-top: -196px;
+  text-align: center;
+  color: #333333;
+  line-height: 1.7em;
+}
+.feature3 {
+  width: 200px;
+  height: 200px;
+  margin-left: 885px;
+  margin-top: -200px;
+  text-align: center;
+  color: #333333;
+  line-height: 1.7em;
+}
+.pricingfooter {
+  display: flex;
+  background-color: white;
+  margin: 30px;
+  padding-left: 72px;
+  height: 179px;
+  border-radius: 33px;
+  line-height: 1.7em;
+    margin-top: 310px;
+}
+.second {
+  margin-left: 166px;
+}
+.first {
+  margin-left: 65px;
+}
+a{
+  text-decoration: none;
+}
+.teaxtFree{
+  color: #7eddcd;
+}
+.textAwesome{
+  color:  #6b99e2;
+}
